@@ -7,6 +7,7 @@ import androidx.activity.compose.setContent
 import androidx.compose.foundation.layout.*
 import androidx.compose.runtime.*
 import androidx.compose.ui.Modifier
+import androidx.navigation.NavController
 import androidx.navigation.NavHostController
 import androidx.navigation.NavType
 import androidx.navigation.compose.NavHost
@@ -66,7 +67,7 @@ fun BINGE2App(
 
     // Update current route when navigation changes
     DisposableEffect(navController) {
-        val listener = NavHostController.OnDestinationChangedListener { _, destination, _ ->
+        val listener = NavController.OnDestinationChangedListener { _, destination, _ ->
             currentRoute = destination.route ?: "user_selection"
         }
         navController.addOnDestinationChangedListener(listener)
