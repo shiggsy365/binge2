@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="background">#FF0A0A0A</color>
+    <color name="black">#FF000000</color>
+    <color name="primary">#FFE50914</color>
+    <color name="white">#FFFFFFFF</color>
+    <string name="add_watchlist">Add to Watchlist</string>
+    <string name="app_name">BINGE2</string>
+    <string name="continue_watching">Continue Watching</string>
+    <string name="genres">Genres</string>
+    <string name="mark_unwatched">Mark as Unwatched</string>
+    <string name="mark_watched">Mark as Watched</string>
+    <string name="popular_movies">Popular Movies</string>
+    <string name="popular_shows">Popular Shows</string>
+    <string name="remove_watchlist">Remove from Watchlist</string>
+    <string name="trending_movies">Trending Movies</string>
+    <string name="trending_shows">Trending Shows</string>
+    <string name="up_a_level">Up a level</string>
+    <string name="up_next">Up Next</string>
+    <string name="view_cast">View Cast &amp; Crew</string>
+    <string name="view_similar">View Similar</string>
+    <string name="watchlist">Watchlist</string>
+    <string name="whos_watching">Who\'s watching?</string>
+    <style name="Theme.BINGE2" parent="android:Theme.Material.NoActionBar">
+        <item name="android:windowBackground">@color/black</item>
+        <item name="android:colorBackground">@color/black</item>
+    </style>
+</resources>

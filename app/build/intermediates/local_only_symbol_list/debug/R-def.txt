@@ -1,0 +1,29 @@
+R_DEF: Internal format may change without notice
+local
+color background
+color black
+color primary
+color white
+drawable app_banner
+drawable ic_launcher_background
+mipmap ic_launcher
+mipmap ic_launcher_foreground
+mipmap ic_launcher_round
+string add_watchlist
+string app_name
+string continue_watching
+string genres
+string mark_unwatched
+string mark_watched
+string popular_movies
+string popular_shows
+string remove_watchlist
+string trending_movies
+string trending_shows
+string up_a_level
+string up_next
+string view_cast
+string view_similar
+string watchlist
+string whos_watching
+style Theme.BINGE2
